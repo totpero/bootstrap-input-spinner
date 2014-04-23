@@ -1,0 +1,52 @@
+
+/* Begin - Animatie icon*/
+.input-spinner {
+    -webkit-animation: input-spinner .6s infinite linear;
+    -moz-animation: input-spinner .6s infinite linear;
+    -o-animation: input-spinner .6s infinite linear;
+    -ms-animation: input-spinner .6s infinite linear;
+    animation: input-spinner .6s infinite linear;
+}
+
+@-moz-keyframes input-spinner {
+  from {
+    -moz-transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes input-spinner {
+  from {
+    -webkit-transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes input-spinner {
+  from {
+    -o-transform: rotate(0);
+  }
+  to {
+    -o-transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes input-spinner {
+    from { -ms-transform: rotate(0); }
+    to { -ms-transform: rotate(360deg); }
+}
+
+@keyframes input-spinner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* End - Animatie icon*/
